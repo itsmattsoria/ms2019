@@ -1,6 +1,12 @@
 // About Page
 
 body.about-page {
+  .about-image {
+    img {
+      border-radius: 6px;
+    }
+  }
+
   .bio {
     margin-top: $padding-sm;
 
