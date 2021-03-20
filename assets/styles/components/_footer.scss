@@ -14,7 +14,6 @@
     padding: 0;
     margin: 0 0 $beat;
     li {
-      @include font-display;
       list-style: none;
       margin-right: $beat;
       display: inline-block;

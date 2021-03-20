@@ -1,46 +1,38 @@
-// Degular Text
+// ISO
 @font-face {
-  font-family: 'Degular Text';
-  src: url('../fonts/Degular_Text-Regular.woff2') format('woff2'),
-       url('../fonts/Degular_Text-Regular.woff') format('woff');
-  font-weight: 400;
+  font-family: 'ISO';
+  src: url('../fonts/ISOv0.8-Regular.woff2') format('woff2'),
+       url('../fonts/ISOv0.8-Regular.woff') format('woff');
+  font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Degular Text';
-  src: url('../fonts/Degular_Text-Italic.woff2') format('woff2'),
-       url('../fonts/Degular_Text-Italic.woff') format('woff');
-  font-weight: 400;
+  font-family: 'ISO';
+  src: url('../fonts/ISOv0.8-RegularItalic.woff2') format('woff2'),
+       url('../fonts/ISOv0.8-RegularItalic.woff') format('woff');
+  font-weight: 500;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Degular Text';
-  src: url('../fonts/Degular_Text-Semibold.woff2') format('woff2'),
-       url('../fonts/Degular_Text-Semibold.woff') format('woff');
+  font-family: 'ISO';
+  src: url('../fonts/ISOv0.8-Bold.woff2') format('woff2'),
+       url('../fonts/ISOv0.8-Bold.woff') format('woff');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Degular Text';
-  src: url('../fonts/Degular_Text-Semibold_Italic.woff2') format('woff2'),
-       url('../fonts/Degular_Text-Semibold_Italic.woff') format('woff');
-  font-weight: 700;
+  font-family: 'ISO';
+  src: url('../fonts/ISOv0.8-Black.woff2') format('woff2'),
+       url('../fonts/ISOv0.8-Black.woff') format('woff');
+  font-weight: 900;
   font-style: italic;
   font-display: swap;
 }
 
 // Degular Display
-@font-face {
-  font-family: 'Degular Display';
-  src: url('../fonts/Degular_Display-Medium.woff2') format('woff2'),
-       url('../fonts/Degular_Display-Medium.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
 @font-face {
   font-family: 'Degular Display';
   src: url('../fonts/Degular_Display-Semibold.woff2') format('woff2'),

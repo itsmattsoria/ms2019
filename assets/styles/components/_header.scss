@@ -63,13 +63,11 @@
 // Nav Toggle
 #nav-toggle {
   @extend .button-reset;
-  @include font-display;
+  @include p3;
   padding: 0;
   z-index: 1;
-  bottom: 12px;
+  bottom: 8px;
   cursor: pointer;
-  font-size: 22px;
-  font-weight: 700;
   right: $padding-sm;
   position: absolute;
   &:hover {
@@ -107,6 +105,7 @@
     }
     &.-current {
       a {
+        font-weight: 700;
         &::before {
           transform: none;
         }
@@ -116,8 +115,6 @@
 
   a {
     @include highlight;
-    @include font-display;
-    font-size: 22px;
     text-decoration: none;
 
     &:hover,
