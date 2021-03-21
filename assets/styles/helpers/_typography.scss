@@ -69,8 +69,24 @@
   @include h2;
 }
 
-@mixin type-huge {
+@mixin h3 {
   @include font-main;
+  @include paragraph-style(24, 32, 0, 700);
+}
+.h3 {
+  @include h3;
+}
+
+@mixin h4 {
+  @include font-display;
+  @include paragraph-style(36, 36, 0, 700);
+}
+.h4 {
+  @include h4;
+}
+
+@mixin type-huge {
+  @include font-display;
   @include paragraph-style(48, 48, -0.01em, 700);
   @include media-md {
     @include paragraph-style(74, 74, -0.01em, 700);

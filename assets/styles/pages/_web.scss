@@ -40,7 +40,7 @@ body.web-page {
       }
 
       .project-title {
-        @include h1;
+        @include h4;
 
         a {
           @include inline-link;
@@ -158,8 +158,8 @@ body.web-page {
     }
 
     h3 {
-      @include h1;
-      margin: 0;
+      @include h3;
+      margin: 0 0 $beat * 2;
 
       a {
         @include inline-link;
