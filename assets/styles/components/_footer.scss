@@ -78,10 +78,10 @@
     }
 
     .smiley {
-      order: 1;
-      right: auto;
+      margin: 0;
+      right: 50%;
       bottom: auto;
-      position: relative;
+      transform: translateX(50%);
     }
   }
 }
