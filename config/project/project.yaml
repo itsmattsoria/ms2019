@@ -1,4 +1,4 @@
-dateModified: 1613889207
+dateModified: 1617504622
 email:
   fromEmail: matt.m.soria@gmail.com
   fromName: mattsoria
@@ -9,6 +9,10 @@ plugins:
     enabled: true
     schemaVersion: 1.0.0
   cp-field-inspect:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  easymde-markdown-editor:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0

@@ -1,0 +1,57 @@
+contentColumnType: text
+fieldGroup: 1336a284-858d-4ea1-9875-7b5d0f3134d9
+handle: projectAwards
+instructions: ''
+name: 'Project Awards'
+searchable: false
+settings:
+  addRowLabel: 'Add an award'
+  columnType: text
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Award Title'
+            -
+              - handle
+              - awardTitle
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+      -
+        - col2
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Award Url'
+            -
+              - handle
+              - awardUrl
+            -
+              - width
+              - ''
+            -
+              - type
+              - url
+  defaults:
+    -
+      __assoc__:
+        -
+          - col1
+          - ''
+        -
+          - col2
+          - ''
+  maxRows: ''
+  minRows: ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Table

@@ -1,5 +1,6 @@
 {
   "require": {
+    "acoustep/craft-easymde": "0.1.7",
     "aelvan/imager": "v2.4.0",
     "clubstudioltd/craft-asset-rev": "6.0.2",
     "craftcms/cms": "3.6.6",

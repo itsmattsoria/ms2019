@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: 5aeab9d2-b4b3-452c-a6d0-7ab33429580e
+handle: markdownText
+instructions: ''
+name: 'Markdown Text'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: '1'
+  columnType: null
+  initialRows: '4'
+  multiline: '1'
+  placeholder: Markdown
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

@@ -1,0 +1,23 @@
+enableVersioning: true
+handle: notes
+name: Notes
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  0325349e-a9fc-459c-acbc-a4cb222b8c43:
+    enabledByDefault: true
+    hasUrls: true
+    template: notes/_entry
+    uriFormat: 'notes/{slug}'
+type: channel

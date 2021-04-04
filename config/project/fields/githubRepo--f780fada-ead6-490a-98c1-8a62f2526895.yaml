@@ -1,0 +1,14 @@
+contentColumnType: string(255)
+fieldGroup: 1336a284-858d-4ea1-9875-7b5d0f3134d9
+handle: githubRepo
+instructions: ''
+name: 'Github Repo'
+searchable: false
+settings:
+  maxLength: '255'
+  placeholder: null
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url

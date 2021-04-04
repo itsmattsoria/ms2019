@@ -1,0 +1,26 @@
+enableVersioning: true
+handle: devProjects
+name: 'Dev Projects'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  0325349e-a9fc-459c-acbc-a4cb222b8c43:
+    enabledByDefault: true
+    hasUrls: true
+    template: dev-projects/_entry
+    uriFormat: 'work/{slug}'
+structure:
+  maxLevels: 1
+  uid: 8ed17d4f-af55-449d-9896-c79c980fb448
+type: structure

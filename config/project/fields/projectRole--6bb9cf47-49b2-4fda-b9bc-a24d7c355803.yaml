@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: 1336a284-858d-4ea1-9875-7b5d0f3134d9
+handle: projectRole
+instructions: ''
+name: 'Project Role'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

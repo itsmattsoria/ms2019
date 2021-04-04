@@ -29,7 +29,7 @@
       {% endif %}
       <figure class="grid-item grid-image {{ item.size }}{{ spacingClasses is defined ? ' ' ~ spacingClasses : '' }}{{ loop.index > 4 ? ' imagesloaded' : '' }}{{ item.portfolioPage is defined and item.portfolioPage|length ? ' image-overlay' : '' }}">
         <div class="-inner">
-          <img src="{{ transformedImage.getUrl() }}" width="{{ transformedImage.width }}" height="{{ transformedImage.height }}" alt="{{ item.imageFile.one().title }}"{{ item.portfolioPage is defined and item.portfolioPage|length ? '' : ' data-zoomable'}}{{ loop.index > 4 ? ' loading="lazy"' : '' }}>
+          <img src="{{ transformedImage.getUrl() }}" width="{{ transformedImage.width }}" height="{{ transformedImage.height }}" alt="{{ item.imageFile.one().altText|length ? item.imageFile.one().altText : item.imageFile.one().title }}"{{ item.portfolioPage is defined and item.portfolioPage|length ? '' : ' data-zoomable'}}{{ loop.index > 4 ? ' loading="lazy"' : '' }}>
 
           {% if item.portfolioPage is defined and item.portfolioPage|length %}
             <a class="overlay" href="{{ item.portfolioPage.one().url }}"><div class="overlay-text"><span>{{ item.portfolioPage.one().title }}</span></div></a>
