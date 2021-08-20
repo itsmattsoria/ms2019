@@ -52,6 +52,7 @@
       RewriteCond %{REQUEST_URI} !\.well\-known/acme\-challenge
       RewriteCond %{HTTP_HOST} !^www\.mattsoria\.com [NC]
       RewriteCond %{HTTP_HOST} !^ms2019\.localhost [NC]
+      RewriteCond %{HTTP_HOST} !^craft3-tib7\.frb\.io [NC]
       RewriteRule ^(.*)$ https://www.mattsoria.com/$1 [R=301,L]
 
     # Force SSL
