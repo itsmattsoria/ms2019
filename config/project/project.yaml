@@ -1,4 +1,4 @@
-dateModified: 1617504622
+dateModified: 1627919937
 email:
   fromEmail: matt.m.soria@gmail.com
   fromName: mattsoria
@@ -20,6 +20,10 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
+  feed-me:
+    edition: standard
+    enabled: true
+    schemaVersion: 4.3.0
   imager:
     edition: standard
     enabled: true

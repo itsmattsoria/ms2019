@@ -4,6 +4,7 @@
     "aelvan/imager": "v2.4.0",
     "clubstudioltd/craft-asset-rev": "6.0.2",
     "craftcms/cms": "3.6.6",
+    "craftcms/feed-me": "4.3.6",
     "craftcms/redactor": "2.8.5",
     "craftcms/webhooks": "2.3.2",
     "dolphiq/sitemap": "1.3.1",

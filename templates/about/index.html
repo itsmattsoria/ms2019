@@ -17,10 +17,23 @@
       {% endif %}
 
       {% if entry.textArea %}
-        <div class="col-md-1-2">
+        <div class="text-content col-md-1-2">
           <div class="bio field-text">
             {{ entry.textArea }}
+
+            {% set ticks = craft.entries().section('climbing').limit(5) %}
+            {% if ticks|length %}
+              <p>What I've been climbing lately:</p>
+              <ul>
+                {% for tick in ticks.all() %}
+                  <li>
+                    <a href="{{ tick.externalUrl }}" rel="noopener">{{ tick.title | replace('Tick: ', '') }}</a>
+                  </li>
+                {% endfor %}
+              </ul>
+            {% endif %}
           </div>
+
 
           {% if entry.colophon | length %}
             <div class="colophon">
@@ -30,6 +43,7 @@
           {% endif %}
         </div>
       {% endif %}
+
     </div>
   </div>
 {% endblock %}

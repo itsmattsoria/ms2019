@@ -1,0 +1,23 @@
+enableVersioning: true
+handle: climbing
+name: Climbing
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  35815072-acac-4452-9c5d-768772bc4940:
+    enabledByDefault: true
+    hasUrls: true
+    template: climbing/_entry
+    uriFormat: 'climbing/{slug}'
+type: channel
