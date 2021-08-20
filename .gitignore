@@ -31,3 +31,6 @@ web/uploads
 
 # php settings
 .user.ini
+
+# Prevent to .sql files (added by fortrabbit/craft-copy)
+*.sql

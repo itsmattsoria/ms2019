@@ -1,10 +1,14 @@
-dateModified: 1627919937
+dateModified: 1629492970
 email:
   fromEmail: matt.m.soria@gmail.com
   fromName: mattsoria
   transportType: craft\mail\transportadapters\Sendmail
 plugins:
   assetrev:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  copy:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
