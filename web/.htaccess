@@ -49,17 +49,17 @@
     RewriteEngine On
 
     # Ensure consistent URL
-      RewriteCond %{REQUEST_URI} !\.well\-known/acme\-challenge
+    # RewriteCond %{REQUEST_URI} !\.well\-known/acme\-challenge
     # RewriteCond %{HTTP_HOST} !^www\.mattsoria\.com [NC]
     # RewriteCond %{HTTP_HOST} !^ms2019\.localhost [NC]
     # RewriteCond %{HTTP_HOST} !^craft3-tib7\.frb\.io [NC]
     # RewriteRule ^(.*)$ https://www.mattsoria.com/$1 [R=301,L]
 
     # Force SSL
-      RewriteCond %{REQUEST_URI} !\.well\-known/acme\-challenge
-      RewriteCond %{HTTP:X-Forwarded-SSL} !on
-      RewriteCond %{HTTP_HOST} !^ms2019\.localhost [NC]
-      RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+    # RewriteCond %{REQUEST_URI} !\.well\-known/acme\-challenge
+    # RewriteCond %{HTTP:X-Forwarded-SSL} !on
+    # RewriteCond %{HTTP_HOST} !^ms2019\.localhost [NC]
+    # RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 
     # Custom redirects
     RewriteRule ^photography/(.*)$ /$1 [R=301,L]
