@@ -3,7 +3,7 @@ handle: photography
 name: Photography
 propagationMethod: all
 siteSettings:
-  35815072-acac-4452-9c5d-768772bc4940:
+  35815072-acac-4452-9c5d-768772bc4940: # Matt Soria
     enabledByDefault: true
     hasUrls: true
     template: photography

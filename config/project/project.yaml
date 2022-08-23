@@ -1,14 +1,18 @@
-dateModified: 1629492970
+dateModified: 1661295458
 email:
   fromEmail: matt.m.soria@gmail.com
   fromName: mattsoria
   transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    0a36206a-cf43-4e78-9b99-0cc7f90c30a0: 'Public Schema' # Public Schema
+    3a31e72a-88e2-4200-ad77-ebad59464e3a: Seo # Seo
+    010b5339-42ae-49c2-a832-d120abafd2d2: Tagline # Tagline
+    50bafd98-bc33-405b-a6e8-fe28dae9fb59: '404 Page' # 404 Page
+    82173ec0-2aaf-4f12-9405-8d9bc00da7ec: 'Web Schema' # Web Schema
+    35815072-acac-4452-9c5d-768772bc4940: 'Matt Soria' # Matt Soria
 plugins:
   assetrev:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.0
-  copy:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
@@ -24,10 +28,6 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
-  feed-me:
-    edition: standard
-    enabled: true
-    schemaVersion: 4.3.0
   imager:
     edition: standard
     enabled: true
@@ -51,12 +51,12 @@ plugins:
   webhooks:
     edition: standard
     enabled: true
-    schemaVersion: 2.3.0
+    schemaVersion: 2.4.0
 system:
   edition: pro
   live: true
   name: mattsoria
-  schemaVersion: 3.6.4
+  schemaVersion: 3.7.8
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false

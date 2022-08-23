@@ -61,6 +61,18 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
+  4bdb957f-8698-4eb4-9645-e82ed84aa2c7:
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: colored
+    instructions: 'Should it be colored, or just black on white?'
+    name: Colored
+    searchable: false
+    settings:
+      default: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
   360d24d3-e966-4dad-a9c9-ee921bf28f22:
     contentColumnType: string
     fieldGroup: null
@@ -106,18 +118,6 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\RadioButtons
-  4bdb957f-8698-4eb4-9645-e82ed84aa2c7:
-    contentColumnType: boolean
-    fieldGroup: null
-    handle: colored
-    instructions: 'Should it be colored, or just black on white?'
-    name: Colored
-    searchable: false
-    settings:
-      default: ''
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\Lightswitch
   6562a881-8024-4fa6-9dec-b7b96dd13884:
     contentColumnType: text
     fieldGroup: null

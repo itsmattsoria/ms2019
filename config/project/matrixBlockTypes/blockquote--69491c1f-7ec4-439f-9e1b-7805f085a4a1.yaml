@@ -61,25 +61,6 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  0478c881-04be-44d1-8d0b-9033d00291ad:
-    contentColumnType: text
-    fieldGroup: null
-    handle: citation
-    instructions: ''
-    name: Citation
-    searchable: false
-    settings:
-      byteLimit: null
-      charLimit: null
-      code: ''
-      columnType: null
-      initialRows: '4'
-      multiline: ''
-      placeholder: ''
-      uiMode: normal
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\PlainText
   0e40d611-785c-4a5e-90cd-e9506481e02f:
     contentColumnType: string
     fieldGroup: null
@@ -132,6 +113,25 @@ fields:
     handle: quote
     instructions: ''
     name: Quote
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  0478c881-04be-44d1-8d0b-9033d00291ad:
+    contentColumnType: text
+    fieldGroup: null
+    handle: citation
+    instructions: ''
+    name: Citation
     searchable: false
     settings:
       byteLimit: null

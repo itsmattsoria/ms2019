@@ -4,3 +4,6 @@ scope:
   - 'sections.5f25ab18-747e-406e-b86e-00d459c7faa9:read'
   - 'entrytypes.c8e82d53-afff-4dea-8df8-8954d011a04a:read'
   - 'gatsby:read'
+  - 'elements.drafts:read'
+  - 'elements.revisions:read'
+  - 'elements.inactive:read'

@@ -8,7 +8,7 @@
     {% set stories = craft.entries().section('stories').all() %}
 
     <div class="sitewrapper">
-      <div class="stories-list project-grid">
+      <div class="stories-list">
         {% for story in stories %}
           {% if story.thumbnail | length %}
             {% set imageFile = story.thumbnail.one() %}
@@ -29,8 +29,10 @@
           {% endif %}
           <article class="story grid-item {{ story.thumbnailSize }}">
             <a href="{{ story.url }}" class="image-overlay" data-hover-pair="story-{{ story.slug }}">
-              <div class="overlay"><div class="overlay-text"><span>view story</span></div></div>
-              <img class="lazyload" data-src="{{ transformedImage.getUrl() }}" alt="{{ story.thumbnail.one().title }}">
+              <div class="-inner">
+                <div class="overlay"><div class="overlay-text"><span>view story</span></div></div>
+                <img src="{{ transformedImage.getUrl() }}" alt="{{ story.thumbnail.one().title }}" {{ loop.index > 4 ? ' loading="lazy"' : '' }}>
+              </div>
             </a>
             <div class="story-info">
               <h2 class="story-title"><a href="{{ story.url }}" data-hover-pair="story-{{ story.slug }}">{{ story.title }}</a></h2>

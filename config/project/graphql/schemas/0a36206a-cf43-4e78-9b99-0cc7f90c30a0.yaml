@@ -5,3 +5,6 @@ scope:
   - 'entrytypes.c8e82d53-afff-4dea-8df8-8954d011a04a:read'
   - 'volumes.ed7a90f0-b4e5-4c4c-b15c-831c22754213:read'
   - 'gatsby:read'
+  - 'elements.drafts:read'
+  - 'elements.revisions:read'
+  - 'elements.inactive:read'

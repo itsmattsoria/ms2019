@@ -88,6 +88,55 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
+  9a25632d-b4f7-4759-ad22-6aefc403d009:
+    contentColumnType: text
+    fieldGroup: null
+    handle: awards
+    instructions: ''
+    name: Awards
+    searchable: false
+    settings:
+      addRowLabel: 'Add an award'
+      columnType: text
+      columns:
+        __assoc__:
+          -
+            - col1
+            -
+              __assoc__:
+                -
+                  - heading
+                  - 'Award Title'
+                -
+                  - handle
+                  - awardTitle
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - singleline
+          -
+            - col2
+            -
+              __assoc__:
+                -
+                  - heading
+                  - 'Award Url'
+                -
+                  - handle
+                  - awardUrl
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - url
+      maxRows: ''
+      minRows: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Table
   10c0074a-35da-448f-8d5b-636f3a9777bc:
     contentColumnType: string(255)
     fieldGroup: null
@@ -101,38 +150,6 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Url
-  349364ad-e16d-4bfa-bdf3-1db1616d0227:
-    contentColumnType: string
-    fieldGroup: null
-    handle: projectImage
-    instructions: 'Project image'
-    name: Image/Video
-    searchable: false
-    settings:
-      allowSelfRelations: false
-      allowedKinds:
-        - image
-        - json
-      defaultUploadLocationSource: 'volume:ed7a90f0-b4e5-4c4c-b15c-831c22754213'
-      defaultUploadLocationSubpath: ''
-      limit: '1'
-      localizeRelations: false
-      restrictFiles: '1'
-      selectionLabel: 'Choose an image or video embed'
-      showSiteMenu: true
-      showUnpermittedFiles: false
-      showUnpermittedVolumes: false
-      singleUploadLocationSource: 'volume:ed7a90f0-b4e5-4c4c-b15c-831c22754213'
-      singleUploadLocationSubpath: '{owner.slug}'
-      source: null
-      sources: '*'
-      targetSiteId: null
-      useSingleFolder: true
-      validateRelatedElements: false
-      viewMode: list
-    translationKeyFormat: null
-    translationMethod: site
-    type: craft\fields\Assets
   60bae2ea-85b2-4f46-a98e-3730053ef4cf:
     contentColumnType: string(255)
     fieldGroup: null
@@ -184,55 +201,38 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  9a25632d-b4f7-4759-ad22-6aefc403d009:
-    contentColumnType: text
+  349364ad-e16d-4bfa-bdf3-1db1616d0227:
+    contentColumnType: string
     fieldGroup: null
-    handle: awards
-    instructions: ''
-    name: Awards
+    handle: projectImage
+    instructions: 'Project image'
+    name: Image/Video
     searchable: false
     settings:
-      addRowLabel: 'Add an award'
-      columnType: text
-      columns:
-        __assoc__:
-          -
-            - col1
-            -
-              __assoc__:
-                -
-                  - heading
-                  - 'Award Title'
-                -
-                  - handle
-                  - awardTitle
-                -
-                  - width
-                  - ''
-                -
-                  - type
-                  - singleline
-          -
-            - col2
-            -
-              __assoc__:
-                -
-                  - heading
-                  - 'Award Url'
-                -
-                  - handle
-                  - awardUrl
-                -
-                  - width
-                  - ''
-                -
-                  - type
-                  - url
-      maxRows: ''
-      minRows: ''
+      allowSelfRelations: false
+      allowedKinds:
+        - image
+        - json
+      defaultUploadLocationSource: 'volume:ed7a90f0-b4e5-4c4c-b15c-831c22754213'
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      restrictFiles: '1'
+      selectionLabel: 'Choose an image or video embed'
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:ed7a90f0-b4e5-4c4c-b15c-831c22754213'
+      singleUploadLocationSubpath: '{owner.slug}'
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: true
+      validateRelatedElements: false
+      viewMode: list
     translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\Table
+    translationMethod: site
+    type: craft\fields\Assets
   a0d1a65a-8e4b-4838-b364-d1449c6844de:
     contentColumnType: text
     fieldGroup: null
